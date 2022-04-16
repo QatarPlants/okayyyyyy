@@ -9,8 +9,6 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
-
-      - name: hello
       - run: |
            get hub pages
       - name: Deploy 🚀
