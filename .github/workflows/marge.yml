@@ -5,10 +5,10 @@ on:
 
 jobs:
     build:
-      if: github.event.pull_request.merged == true
       runs-on: ubuntu-latest
       steps:
         - name: Checkout 📁
           uses: actions/checkout@v1
         - run: |
            echo The PR was merged this is merged wf runnnn
+      if: github.event.pull_request.merged == true
